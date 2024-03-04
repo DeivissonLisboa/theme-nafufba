@@ -1,6 +1,4 @@
-# Theme Name
-
-teste
+# NAF UFBA
 
 ## Features
 
