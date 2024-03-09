@@ -1,2 +1,16 @@
-<h1>{{ site.Title }}</h1>
-{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+<nav>
+    <a href="/" class="logo">
+        <div class="logo-container">
+            <img src="/logo-naf.png" alt="" class="logo-image">
+        </div>
+    </a>
+
+    <label class="toggle" for="navbar-dropdown">
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+      </label>
+      <input class="toggle-input" type="checkbox" id="navbar-dropdown" />
+
+    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+</nav>
