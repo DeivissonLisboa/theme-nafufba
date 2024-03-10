@@ -1,1 +1,18 @@
-<p>Copyright {{ now.Year }}. All rights reserved.</p>
+<nav>
+  <a href="/">
+    <img src="/logo-naf.png" alt="" class="footer-logo" />
+  </a>
+
+  {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+
+  <div class="footer-icons">
+    <a class="footer-icon" href=""><img src="/icons/instagram.svg" alt="" /></a>
+    <a class="footer-icon" href=""><img src="/icons/linkedin.svg" alt="" /></a>
+  </div>
+</nav>
+
+<p>{{ now.Year }} NAF UFBA</p>
+<p>
+  Thema desenvolvido por
+  <a href="https://github.com/DeivissonLisboa">Deivisson Lisboa</a>
+</p>
